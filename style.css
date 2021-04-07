@@ -1,0 +1,25 @@
+header, main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-family: monospace;
+}
+
+button{
+    width: 100px;
+}
+
+#turnOff:hover{
+    background-color: crimson;
+    color: rgb(255, 254, 254);
+    transition: 1s;
+}
+
+#turnOn:hover{
+    background-color: green;
+    color: white;
+    transition: 1s;
+}
